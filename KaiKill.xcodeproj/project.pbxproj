@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F6C7682A898DDD0025C34B /* KaiKillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7672A898DDD0025C34B /* KaiKillApp.swift */; };
+		03F6C76A2A898DDD0025C34B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7692A898DDD0025C34B /* ContentView.swift */; };
+		03F6C76C2A898DDE0025C34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F6C76B2A898DDE0025C34B /* Assets.xcassets */; };
+		03F6C76F2A898DDE0025C34B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F6C76E2A898DDE0025C34B /* Preview Assets.xcassets */; };
+		03F6C7792A898DDF0025C34B /* KaiKillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7782A898DDF0025C34B /* KaiKillTests.swift */; };
+		03F6C7832A898DDF0025C34B /* KaiKillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7822A898DDF0025C34B /* KaiKillUITests.swift */; };
+		03F6C7852A898DDF0025C34B /* KaiKillUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7842A898DDF0025C34B /* KaiKillUITestsLaunchTests.swift */; };
+		03F6C7922A8995940025C34B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6C7912A8995940025C34B /* test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F6C7752A898DDF0025C34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F6C75C2A898DDD0025C34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F6C7632A898DDD0025C34B;
+			remoteInfo = KaiKill;
+		};
+		03F6C77F2A898DDF0025C34B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F6C75C2A898DDD0025C34B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F6C7632A898DDD0025C34B;
+			remoteInfo = KaiKill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F6C7642A898DDD0025C34B /* KaiKill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaiKill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6C7672A898DDD0025C34B /* KaiKillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiKillApp.swift; sourceTree = "<group>"; };
+		03F6C7692A898DDD0025C34B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03F6C76B2A898DDE0025C34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F6C76E2A898DDE0025C34B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03F6C7742A898DDF0025C34B /* KaiKillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaiKillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6C7782A898DDF0025C34B /* KaiKillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiKillTests.swift; sourceTree = "<group>"; };
+		03F6C77E2A898DDF0025C34B /* KaiKillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaiKillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6C7822A898DDF0025C34B /* KaiKillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiKillUITests.swift; sourceTree = "<group>"; };
+		03F6C7842A898DDF0025C34B /* KaiKillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiKillUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03F6C7912A8995940025C34B /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F6C7612A898DDD0025C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C7712A898DDF0025C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C77B2A898DDF0025C34B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F6C75B2A898DDD0025C34B = {
+			isa = PBXGroup;
+			children = (
+				03F6C7912A8995940025C34B /* test.swift */,
+				03F6C7662A898DDD0025C34B /* KaiKill */,
+				03F6C7772A898DDF0025C34B /* KaiKillTests */,
+				03F6C7812A898DDF0025C34B /* KaiKillUITests */,
+				03F6C7652A898DDD0025C34B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F6C7652A898DDD0025C34B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F6C7642A898DDD0025C34B /* KaiKill.app */,
+				03F6C7742A898DDF0025C34B /* KaiKillTests.xctest */,
+				03F6C77E2A898DDF0025C34B /* KaiKillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F6C7662A898DDD0025C34B /* KaiKill */ = {
+			isa = PBXGroup;
+			children = (
+				03F6C7672A898DDD0025C34B /* KaiKillApp.swift */,
+				03F6C7692A898DDD0025C34B /* ContentView.swift */,
+				03F6C76B2A898DDE0025C34B /* Assets.xcassets */,
+				03F6C76D2A898DDE0025C34B /* Preview Content */,
+			);
+			path = KaiKill;
+			sourceTree = "<group>";
+		};
+		03F6C76D2A898DDE0025C34B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03F6C76E2A898DDE0025C34B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03F6C7772A898DDF0025C34B /* KaiKillTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F6C7782A898DDF0025C34B /* KaiKillTests.swift */,
+			);
+			path = KaiKillTests;
+			sourceTree = "<group>";
+		};
+		03F6C7812A898DDF0025C34B /* KaiKillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F6C7822A898DDF0025C34B /* KaiKillUITests.swift */,
+				03F6C7842A898DDF0025C34B /* KaiKillUITestsLaunchTests.swift */,
+			);
+			path = KaiKillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F6C7632A898DDD0025C34B /* KaiKill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6C7882A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKill" */;
+			buildPhases = (
+				03F6C7602A898DDD0025C34B /* Sources */,
+				03F6C7612A898DDD0025C34B /* Frameworks */,
+				03F6C7622A898DDD0025C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaiKill;
+			productName = KaiKill;
+			productReference = 03F6C7642A898DDD0025C34B /* KaiKill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F6C7732A898DDF0025C34B /* KaiKillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6C78B2A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKillTests" */;
+			buildPhases = (
+				03F6C7702A898DDF0025C34B /* Sources */,
+				03F6C7712A898DDF0025C34B /* Frameworks */,
+				03F6C7722A898DDF0025C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F6C7762A898DDF0025C34B /* PBXTargetDependency */,
+			);
+			name = KaiKillTests;
+			productName = KaiKillTests;
+			productReference = 03F6C7742A898DDF0025C34B /* KaiKillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F6C77D2A898DDF0025C34B /* KaiKillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6C78E2A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKillUITests" */;
+			buildPhases = (
+				03F6C77A2A898DDF0025C34B /* Sources */,
+				03F6C77B2A898DDF0025C34B /* Frameworks */,
+				03F6C77C2A898DDF0025C34B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F6C7802A898DDF0025C34B /* PBXTargetDependency */,
+			);
+			name = KaiKillUITests;
+			productName = KaiKillUITests;
+			productReference = 03F6C77E2A898DDF0025C34B /* KaiKillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F6C75C2A898DDD0025C34B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					03F6C7632A898DDD0025C34B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					03F6C7732A898DDF0025C34B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 03F6C7632A898DDD0025C34B;
+					};
+					03F6C77D2A898DDF0025C34B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 03F6C7632A898DDD0025C34B;
+					};
+				};
+			};
+			buildConfigurationList = 03F6C75F2A898DDD0025C34B /* Build configuration list for PBXProject "KaiKill" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F6C75B2A898DDD0025C34B;
+			productRefGroup = 03F6C7652A898DDD0025C34B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F6C7632A898DDD0025C34B /* KaiKill */,
+				03F6C7732A898DDF0025C34B /* KaiKillTests */,
+				03F6C77D2A898DDF0025C34B /* KaiKillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F6C7622A898DDD0025C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6C76F2A898DDE0025C34B /* Preview Assets.xcassets in Resources */,
+				03F6C76C2A898DDE0025C34B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C7722A898DDF0025C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C77C2A898DDF0025C34B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F6C7602A898DDD0025C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6C76A2A898DDD0025C34B /* ContentView.swift in Sources */,
+				03F6C7922A8995940025C34B /* test.swift in Sources */,
+				03F6C7682A898DDD0025C34B /* KaiKillApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C7702A898DDF0025C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6C7792A898DDF0025C34B /* KaiKillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6C77A2A898DDF0025C34B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6C7852A898DDF0025C34B /* KaiKillUITestsLaunchTests.swift in Sources */,
+				03F6C7832A898DDF0025C34B /* KaiKillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F6C7762A898DDF0025C34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F6C7632A898DDD0025C34B /* KaiKill */;
+			targetProxy = 03F6C7752A898DDF0025C34B /* PBXContainerItemProxy */;
+		};
+		03F6C7802A898DDF0025C34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F6C7632A898DDD0025C34B /* KaiKill */;
+			targetProxy = 03F6C77F2A898DDF0025C34B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F6C7862A898DDF0025C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F6C7872A898DDF0025C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F6C7892A898DDF0025C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaiKill/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F6C78A2A898DDF0025C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaiKill/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F6C78C2A898DDF0025C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaiKill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaiKill";
+			};
+			name = Debug;
+		};
+		03F6C78D2A898DDF0025C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaiKill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KaiKill";
+			};
+			name = Release;
+		};
+		03F6C78F2A898DDF0025C34B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaiKill;
+			};
+			name = Debug;
+		};
+		03F6C7902A898DDF0025C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KaiKillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaiKill;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F6C75F2A898DDD0025C34B /* Build configuration list for PBXProject "KaiKill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6C7862A898DDF0025C34B /* Debug */,
+				03F6C7872A898DDF0025C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6C7882A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6C7892A898DDF0025C34B /* Debug */,
+				03F6C78A2A898DDF0025C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6C78B2A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6C78C2A898DDF0025C34B /* Debug */,
+				03F6C78D2A898DDF0025C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6C78E2A898DDF0025C34B /* Build configuration list for PBXNativeTarget "KaiKillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6C78F2A898DDF0025C34B /* Debug */,
+				03F6C7902A898DDF0025C34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F6C75C2A898DDD0025C34B /* Project object */;
+}
